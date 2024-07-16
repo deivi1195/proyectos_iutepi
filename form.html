@@ -4,12 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FORMULARIO</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/contact.css">
     
 </head>
 <body>
+
     <div class="form-container">
-        <h2>FORMULARIO DE ESTUDIANTE DE IUTEPI</h2>
+        <div class="boton-volver">
+            <a href="index.html">Inicio</a>
+        </div>
+        <h2>Contacto</h2>
         <form>
             <label for="nombre">Nombre:</label>
             <input type="text" id="nombre" name="nombre"  placeholder="Ingrese su Nombre" required>
@@ -26,11 +30,11 @@
             <label for="correo">Correo:</label>
             <input type="email" id="correo" name="correo"  placeholder="Ingrese su Correo" required>
 
-            <label for="carrera">Carrera Cursada:</label>
+            <!-- <label for="carrera">Carrera Cursada:</label>
             <input type="text" id="carrera" name="carrera"  placeholder="Ingrese la Carrera que Cursa" required>
 
             <label for="codigo_estudiante">Código de Estudiante:</label>
-            <input type="text" id="codigo_estudiante" name="codigo_estudiante" placeholder="Ingrese su Codigo de Estudiante" required>
+            <input type="text" id="codigo_estudiante" name="codigo_estudiante" placeholder="Ingrese su Codigo de Estudiante" required> -->
 
             <label>Género:</label>
             <div class="gender-container">
@@ -38,17 +42,17 @@
                 <label><input type="radio" name="genero" value="mujer" required> Mujer</label>
             </div>
 
-            <label for="turno">Turno de Estudio:</label>
+            <!-- <label for="turno">Turno de Estudio:</label>
             <select id="turno" name="turno" required>
                 <option value="mañana">Mañana</option>
                 <option value="tarde">Tarde</option>
                 <option value="noche">Noche</option>
-            </select>
+            </select> -->
 
             <label for="comentarios">Comentarios:</label>
             <textarea id="comentarios" name="comentarios" rows="4"></textarea>
 
-            <button class="button" type="submit">Enviar</button>
+            <button class="boton" type="submit">Enviar</button>
         </form>
     </div>
 </body>
